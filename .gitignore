@@ -6,6 +6,8 @@
 *.bck
 *.kicad_pcb-bak
 *~
+*.rescue
+
 _autosave-*
 *.tmp
 
@@ -19,3 +21,7 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Files that can cause conflict
+sym-lib-table
+libraries.pro
